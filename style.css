@@ -1,0 +1,68 @@
+#contenedor {
+    background-color: #d86e6e;
+    height: auto;
+}
+
+#cabecera {
+    background-color: #796ed8;
+    height: 80px;
+}
+
+#home {
+    background-color: #d86e6e;
+}
+
+#product {
+    background-color: #b755ca;
+}
+
+#about {
+    background-color: #a00f0f;
+}
+
+#contact {
+    background-color:#df6c00 ;
+}
+
+#seccionProduct {
+    background-color: #6fe24c;
+    height: 600px;
+}
+
+#prod1 {
+    background-color: #2b2849;
+}
+
+#prod2 {
+    background-color: #df6c00;
+}
+
+#prod3 {
+    background-color: #9e97e5;
+}
+
+#seccionContact {
+    background-color: #df6c00;
+    height: 600px;
+}
+
+#contact1 {
+    background-color: #a00f0f;
+}
+
+#contact2 {
+    background-color: #00df5d;
+}
+
+#map {
+    background-color: #997c61;
+}
+
+#piePagina {
+    background-color: #b755ca;
+    height: 100px;
+}
+
+#pie {
+    background-color: #556aca;
+}
