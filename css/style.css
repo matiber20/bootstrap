@@ -1,0 +1,182 @@
+
+#imagenBio {
+    width: 30%;
+    border-radius: 50%;
+    height: 300px;
+}
+
+#textoBio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+#botonLogIn {
+    color: azure;
+    transition: ease-out 0.1s;
+}
+
+#botonLogIn:hover {
+    color: #4BB543;
+}
+
+#alerta {
+    margin-bottom: 0;
+    position: relative;
+}
+
+#caja1 {
+    height: 500px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+#caja2 {
+    margin: 10% auto 0 auto;
+}
+
+#caja3 {
+    margin-top: 10%;
+}
+
+#caja3 p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 4px;
+    box-sizing: border-box;
+}
+
+#caja4 {
+    max-width: 80%;
+    height: auto;
+    margin: 10% auto 10% auto;
+    background-color: rgba(29, 28, 105, 0.712);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+#backToTop1 {
+    position: sticky;
+    margin: 90% 10% 10% 90%;
+    width: 50px;
+    height: 50px;
+}
+
+#backToTop {
+    transform: rotate(90deg);
+}
+
+.card {
+    width: 18rem;
+}
+
+#caja5 {
+    color: cornsilk;
+}
+
+
+/*----Inicio Medida <575px---*/
+
+
+ @media (max-width: 575px) {
+
+    #userText,#passwordText {
+        margin-top: 20px;
+    }
+
+    .carousel-item {
+        height: 200px;
+    }
+
+    #alerta1 {
+        width: 100%;
+    }
+
+    .card{
+        width: 16rem;
+        margin-top: 5px;
+
+    }
+
+    #imagenBio {
+        display: none;
+    }
+
+    #media {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    #caja3 {
+        align-content: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+ }
+
+ /* Fin max 575px */
+
+ /*Inicio min 576px small devices*/ 
+
+ @media (min-width: 576px) {
+
+    #contact {
+        width: 100%;
+    }
+
+    #userText,#passwordText {
+        width: 100%;
+        margin: 3px auto 3px auto;
+    }
+
+    #registroTop {
+        width: 100%;
+    }
+ }
+
+/*    fin min 576px    */
+
+/* Inicio min 768px medium devices */
+
+@media (min-width: 768px) {
+    #userText,#passwordText {
+        margin: 5px auto 5px auto;
+        width: 100%;
+    }
+}
+
+/* Fin min 768px */
+
+@media (min-width: 992px) { 
+    #userText,#passwordText {
+        width: 30%;
+    }
+
+    #registroTop {
+        width: 50%;
+    }
+
+ }
+
+/* Extra Large */
+
+@media (min-width: 1200px) { 
+
+    .card{
+        width: 20rem;
+        margin-top: 5px;
+    }
+
+    #imagenBio {
+        width: 20rem;
+    }
+
+
+
+ }
